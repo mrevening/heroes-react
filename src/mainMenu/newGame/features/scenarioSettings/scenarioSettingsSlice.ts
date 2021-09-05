@@ -1,25 +1,6 @@
 import { createSlice } from '@reduxjs/toolkit'
 import type { RootState } from 'store'
 
-interface Opponents{
-  fractionId: Number,
-  color: String,
-  human: Boolean | undefined
-  blocked: Boolean | undefined
-  classBlocked: Boolean | undefined
-}
-
-interface ScenarioSettings {
-  settings: {
-    id: Number,
-    name: String,
-    size : String,
-    difficulty: String,
-    description: String,
-    opponents: Array<Opponents>
-  }
-}
-
 const initialState: ScenarioSettings = {
   settings: {
     id: 0,

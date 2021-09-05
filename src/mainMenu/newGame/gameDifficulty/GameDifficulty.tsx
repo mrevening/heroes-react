@@ -1,6 +1,11 @@
- import { Container, List, ListInlineItem  } from 'reactstrap';
+import { Container } from 'reactstrap';
 
-export default function GameDifficulty({ difficulty, setDifficulty }){
+interface GameDifficultyProps {
+    difficulty: Number,
+    setDifficulty: any
+}
+
+export default function GameDifficulty({ difficulty, setDifficulty }: GameDifficultyProps){
     const buttons = [
         { level: 0, img: "./pion.png", text: "Easy" },
         { level: 1, img: "./pion.png", text: "Normal" },
@@ -12,15 +17,13 @@ export default function GameDifficulty({ difficulty, setDifficulty }){
     return(
         <Container className="text-center">
             <div>Game Difficulty:</div>
-            <div>
-                <List type="inline">
+            <div className="row align-items-center">
                 { buttons.map((button) => { return(
-                    <ListInlineItem key={button.level} >
+                    <div className="col" key={button.level} >
                         <div onClick={() => setDifficulty(button.level)} className={button.level === difficulty ? "active": "not-active"}><img className="button" src={button.img} alt={button.text} /></div>
                         <div>{button.text}</div>
-                    </ListInlineItem>
+                    </div>
                 )})}
-                </List>
             </div>
         </Container>
     );

@@ -1,13 +1,6 @@
 import { createSlice } from '@reduxjs/toolkit'
 import type { RootState } from 'store'
 
-interface Fraction{
-  id: number;
-  name: string;
-  text: string;
-  path: string;
-}
-
 interface FractionState {
   list: Array<Fraction>
 }

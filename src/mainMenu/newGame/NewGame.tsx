@@ -1,5 +1,4 @@
-import 'bootstrap/dist/css/bootstrap.css';
-import React, { useState, useEffect } from 'react';
+import { useState, useEffect } from 'react';
 import { Button, Modal, ModalBody, Row, Col } from 'reactstrap';
 import Scenario from './scenario/Scenario';
 import GameDifficulty from './gameDifficulty/GameDifficulty';
@@ -8,8 +7,8 @@ import Opponents from './opponents/Opponents';
 import { setScenarios } from './features/scenarios/scenariosSlice'
 import { setScenarioSettings } from './features/scenarioSettings/scenarioSettingsSlice'
 import { setFractions } from './features/fractions/fractionsSlice'
-import { setShowGame } from '../../app/AppSlice'
-import { useAppDispatch } from '../../hooks'
+import { setShowGame } from 'app/AppSlice'
+import { useAppDispatch } from 'hooks'
 
 interface NewGameViewProps {
     isOpen: boolean,

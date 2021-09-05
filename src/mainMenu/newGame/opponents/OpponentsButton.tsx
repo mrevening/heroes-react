@@ -1,8 +1,14 @@
-import React from 'react';
 import { useDispatch } from 'react-redux';
 import { setHuman } from '../features/scenarioSettings/scenarioSettingsSlice'
 
-export default function OpponentsButton({id, color, blocked = false, human = false}) {
+interface OpponentsButtonProps {
+    id: Number,
+    color : String,
+    blocked : Boolean | undefined,
+    human: Boolean | undefined
+}
+
+export default function OpponentsButton({id, color, blocked = false, human = false}: OpponentsButtonProps) {
     const computerIcon = blocked ? "laptop-fill.svg" : "laptop.svg";
     const humanIcon = "person-circle.svg";
     const icon = human ? humanIcon : computerIcon;

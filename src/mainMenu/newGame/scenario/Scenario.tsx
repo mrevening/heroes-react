@@ -1,11 +1,11 @@
 import { useReducer } from 'react';
-import { useSelector } from 'react-redux';
 import { Button, Row, Col } from 'reactstrap';
 import ShowScenarios from './ShowScenarios';
+import { useAppSelector } from 'hooks'
 
 export default function Scenario(){
     const [showScenarios, toggleShowScenarios] = useReducer(showScenarios => !showScenarios, false);
-    const scenarioName = useSelector(state => state.scenarioSettings.settings.name);
+    const scenarioName = useAppSelector(state => state.scenarioSettings.settings.name);
 
     return (
         <>

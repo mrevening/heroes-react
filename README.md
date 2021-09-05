@@ -1,3 +1,9 @@
+Created with: https://create-react-app.dev/docs/adding-typescript/
+
+TO BE DONE:  
+convert-excel-to-json - to generate assets in json from excel https://www.npmjs.com/package/convert-excel-to-json
+
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).

@@ -1,4 +1,3 @@
-import { useSelector } from 'react-redux';
 import { Container, ListGroup, ListGroupItem } from 'reactstrap';
 import HeroClassButton from './HeroClassButton';
 import { useAppSelector } from 'hooks'
@@ -9,14 +8,12 @@ export default function HeroClass(){
         <>
         <Container className="text-center">
             <div>Heroes:</div>
-            <div>
-                <ListGroup type="inline">
+            <div className="row align-items-center">
                 { opponents.map((op, i) => { return(
-                    <ListGroupItem key={i}>
+                    <div className="col" key={i}>
                         <HeroClassButton slot={i} fractionId={op.fractionId} classBlocked={op.classBlocked} />
-                    </ListGroupItem>
+                    </div>
                 )})}
-                </ListGroup>
             </div>
         </Container>
         </>

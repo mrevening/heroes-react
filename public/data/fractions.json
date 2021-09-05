@@ -1,0 +1,9 @@
+[
+    { "id": 1, "name": "knight",     "text": "Knight",      "path": "fractions/knight.png" },
+    { "id": 2, "name": "barbarian",  "text": "Barbarian",   "path": "fractions/barbarian.png" },
+    { "id": 3, "name": "sorceress",  "text": "Sorceress",   "path": "fractions/sorceress.png" },
+    { "id": 4, "name": "wizard",     "text": "Wizard",      "path": "fractions/wizard.png" },
+    { "id": 5, "name": "warlock",    "text": "Warlock",     "path": "fractions/warlock.png" },
+    { "id": 6, "name": "necroman",   "text": "Necroman",    "path": "fractions/necroman.png" },
+    { "id": 0, "name": "random",     "text": "Random",      "path": "fractions/random.png" }
+]

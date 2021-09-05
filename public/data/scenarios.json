@@ -1,0 +1,31 @@
+[
+    {
+        "id": 0,
+        "name": "Grim Reaper",
+        "size": "X-L",
+        "difficulty": "Hard",
+        "description": "Każdy z 4 graczy marzy o tym, by zostać władcą wszystkich pól. Aby je zająć będzie musiał pokonać garnizony, zająć miasta, zwiedzić portale.",
+        "opponents": 
+        [
+            { "fractionId": 0, "color": "blue", "human": true },
+            { "fractionId": 1, "color": "green" },
+            { "fractionId": 2, "color": "red" , "blocked": true },
+            { "fractionId": 3, "color": "yellow", "blocked": true },
+            { "fractionId": 4, "color": "orange" },
+            { "fractionId": 5, "color": "purple", "blocked": true, "classBlocked": true  }
+        ]
+    },
+    {
+        "id": 1,
+        "name": "Land of sand",
+        "size": "L",
+        "difficulty": "Hard",
+        "description": "Stworzone z myślą o pojedynku dwóch graczy, z trzech części się składające.",
+        "opponents": 
+        [
+            { "fractionId": 0, "color": "blue", "human": true },
+            { "fractionId": 1, "color": "green" },
+            { "fractionId": 2, "color": "red" , "blocked": true }
+        ]
+    }
+]

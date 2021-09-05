@@ -1,7 +1,10 @@
 Created with: https://create-react-app.dev/docs/adding-typescript/
+Deployed: https://www.c-sharpcorner.com/article/host-a-react-app-on-azure-from-vs-code/
 
 TO BE DONE:  
 convert-excel-to-json - to generate assets in json from excel https://www.npmjs.com/package/convert-excel-to-json
+
+
 
 
 # Getting Started with Create React App

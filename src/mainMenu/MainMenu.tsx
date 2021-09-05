@@ -10,7 +10,7 @@ export default function MainMenu() {
   const [showLoadGame, toggleShowLoadGame] = useReducer(showLoadGame => !showLoadGame, false);
 
  return (
-    <Container>
+    <Container id="mainMenu"> 
       <div className="center">
           <ButtonGroup vertical>
             <Button onClick={toggleShowNewGame}>New Game</Button>

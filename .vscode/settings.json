@@ -1,0 +1,4 @@
+{
+    "appService.defaultWebAppToDeploy": "/subscriptions/41d9aa98-ba27-4daa-94d8-81706214078f/resourceGroups/appsvc_linux_centralus/providers/Microsoft.Web/sites/heroes-react",
+    "appService.deploySubpath": "."
+}

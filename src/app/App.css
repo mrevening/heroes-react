@@ -34,31 +34,6 @@
   display: inline-block;
 }
 
-.new-game{
-  position: absolute;
-  top: 100px; left: 500px;
-}
-
-.high-scores{
-  position: absolute;
-  top: 50px; left: 400px;
-}
-
-.credits{
-  position: absolute;
-  top: 50px; left: 300px;
-}
-
-.load-game{
-  position: absolute;
-  top: 60px; left: 200px;
-}
-
-.quit{
-  position: absolute;
-  top: 200px; left: 100px;
-}
-
 .pane-view{
   position: absolute;
   top: 30px; left: 200px;
@@ -74,13 +49,13 @@
   right: 0;
 }
 
-html { 
+/* html { 
   background: url(dragon.png) no-repeat center center fixed; 
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
   background-size: cover;
-}
+} */
 
 /* //add webpack */
 
@@ -106,4 +81,59 @@ html {
 
 .highlightedScenario{
   font-weight: bold;
+}
+
+#mainMenu{
+  background: url(dragon.png) no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  min-height: 100vh;
+  min-width: 100vw;
+}
+
+#game{
+  min-height: 100vh;
+  min-width: 100vw;
+  border-width: 2vh;
+  border-style: groove;
+}
+#mainView{
+  background-color: green;
+  /* width: 70%; */
+}
+
+#sideView{
+  background-color: saddlebrown;
+  border-left-width: 2vh;
+  border-left-style: groove;
+  min-height: 96vh;
+}
+
+#row{
+  min-height: 96vh;
+}
+
+#side{
+  min-height: 96vh;
+}
+
+#miniMap{
+  border-bottom-width: 2vh;
+  border-bottom-style: groove;
+  background-color: deepskyblue;
+  min-height: 32vh;
+}
+
+#holdings{
+  background-color: salmon;
+  min-height: 32vh;
+}
+
+#activities{
+  background-color: silver;
+  border-top-width: 2vh;
+  border-top-style: groove;
+  min-height: 32vh;
 }

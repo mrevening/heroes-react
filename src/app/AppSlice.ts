@@ -7,8 +7,8 @@ interface AppState {
 }
 
 const initialState: AppState = {
-  showMainMenu: true,
-  showGame: false
+  showMainMenu: false,
+  showGame: true
 }
 
 export const appSlice = createSlice({

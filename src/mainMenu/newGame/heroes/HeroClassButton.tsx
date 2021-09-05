@@ -10,7 +10,7 @@ interface HeroClassButtonProps {
 
 export default function HeroClassButton({slot, fractionId, classBlocked = false}: HeroClassButtonProps) {
     const dispatch = useAppDispatch();
-    const fracton = useAppSelector(state => state.fractions.list.filter(f => f.id === fractionId)[0])
+    const fracton = useAppSelector(state => currentFraction(state, fractionId))
 
     return (
         <>

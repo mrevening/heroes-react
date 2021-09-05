@@ -1,16 +1,16 @@
   interface Scenario{
-    id: number;
-    name: string;
-    size: string;
-    difficulty: string;
-    description: string;
+    id: Number;
+    name: String;
+    size: String;
+    difficulty: String;
+    description: String;
     opponents: Array<Opponent>;
   }
 
   interface Fraction{
-    id: number;
-    name: string;
-    text: string;
+    id: Number;
+    name: String;
+    text: String;
     path: string;
   }
 

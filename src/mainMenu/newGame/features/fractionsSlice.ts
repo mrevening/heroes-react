@@ -21,6 +21,6 @@ export const fractionsSlice = createSlice({
 
 export const { setFractions } = fractionsSlice.actions
 
-export const currentFraction = ((state: RootState, fractionId: number)  => state.fractions.list.filter(f => f.id === fractionId)[0]);
+export const currentFraction = ((state: RootState, fractionId: Number)  => state.fractions.list.filter(f => f.id === fractionId)[0]);
 
 export default fractionsSlice.reducer

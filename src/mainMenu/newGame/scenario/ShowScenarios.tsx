@@ -1,7 +1,7 @@
 import { useState } from 'react';
 import { useDispatch } from 'react-redux';
 import { Button, Modal, ModalBody, ModalFooter, Container } from 'reactstrap';
-import { setScenarioSettings } from '../features/scenarioSettings/scenarioSettingsSlice'
+import { setScenarioSettings } from '../features/scenarioSettingsSlice'
 import { useAppSelector } from 'state/hooks';
 
 interface ShowScenariosProps{

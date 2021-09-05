@@ -1,5 +1,5 @@
 import { useDispatch } from 'react-redux';
-import { setHuman } from '../features/scenarioSettings/scenarioSettingsSlice'
+import { setHuman } from '../features/scenarioSettingsSlice'
 
 interface OpponentsButtonProps {
     id: Number,

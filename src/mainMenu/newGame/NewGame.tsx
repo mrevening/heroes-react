@@ -4,9 +4,9 @@ import Scenario from './scenario/Scenario';
 import GameDifficulty from './gameDifficulty/GameDifficulty';
 import HeroClass from './heroes/HeroClass';
 import Opponents from './opponents/Opponents';
-import { setScenarios } from './features/scenarios/scenariosSlice'
-import { setScenarioSettings } from './features/scenarioSettings/scenarioSettingsSlice'
-import { setFractions } from './features/fractions/fractionsSlice'
+import { setScenarios } from './features/scenariosSlice'
+import { setScenarioSettings } from './features/scenarioSettingsSlice'
+import { setFractions } from './features/fractionsSlice'
 import { setShowGame } from 'app/AppSlice'
 import { useAppDispatch } from 'state/hooks'
 

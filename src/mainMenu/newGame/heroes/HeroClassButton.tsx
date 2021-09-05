@@ -1,6 +1,5 @@
-import { useDispatch, useSelector } from 'react-redux';
-import { setFraction } from '../features/scenarioSettings/scenarioSettingsSlice'
-import { currentFraction } from '../features/fractions/fractionsSlice'
+import { setFraction } from '../features/scenarioSettingsSlice'
+import { currentFraction } from '../features/fractionsSlice'
 import { useAppSelector, useAppDispatch } from 'state/hooks'
 
 interface HeroClassButtonProps {

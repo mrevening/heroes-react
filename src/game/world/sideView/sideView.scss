@@ -1,0 +1,24 @@
+@import '../../game';
+
+#side{
+    min-height: $view-height;
+  }
+  
+  #miniMap{
+    border-bottom-width: $border-width;
+    border-bottom-style: groove;
+    background-color: deepskyblue;
+    min-height: $view-height/3;
+  }
+  
+  #holdings{
+    background-color: salmon;
+    min-height: $view-height/3;
+  }
+  
+  #activities{
+    background-color: silver;
+    border-top-width: $border-width;
+    border-top-style: groove;
+    min-height: $view-height/3;
+  }

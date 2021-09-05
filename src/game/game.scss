@@ -1,0 +1,25 @@
+  $border-width: 2vh;
+  $view-height: 100vh - 2*$border-width;
+  
+  #game{
+    min-height: 100vh;
+    min-width: 100vw;
+    border-width: $border-width;
+    border-style: groove;
+  }
+  #mainView{
+    background-color: green;
+  }
+  
+  #sideView{
+    background-color: saddlebrown;
+    border-left-width: $border-width;
+    border-left-style: groove;
+    min-height: $view-height;
+  }
+  
+  #row{
+    min-height: $view-height;
+  }
+  
+  

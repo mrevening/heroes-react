@@ -1,3 +1,4 @@
+import './game.scss'
 import { Container, Row, Col} from 'reactstrap';
 import MainView from './world/mainView/MainView'
 import SideView from './world/sideView/SideView'

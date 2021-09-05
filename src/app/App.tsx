@@ -1,4 +1,4 @@
-import './App.css';
+import './app.scss';
 import MainMenu from 'mainMenu/MainMenu'
 import Game from 'game/Game'
 import { useAppSelector } from 'state/hooks'

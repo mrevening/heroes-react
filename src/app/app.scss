@@ -49,16 +49,6 @@
   right: 0;
 }
 
-/* html { 
-  background: url(dragon.png) no-repeat center center fixed; 
-  -webkit-background-size: cover;
-  -moz-background-size: cover;
-  -o-background-size: cover;
-  background-size: cover;
-} */
-
-/* //add webpack */
-
 .active {
   border: 2px solid red;
 }
@@ -91,49 +81,4 @@
   background-size: cover;
   min-height: 100vh;
   min-width: 100vw;
-}
-
-#game{
-  min-height: 100vh;
-  min-width: 100vw;
-  border-width: 2vh;
-  border-style: groove;
-}
-#mainView{
-  background-color: green;
-  /* width: 70%; */
-}
-
-#sideView{
-  background-color: saddlebrown;
-  border-left-width: 2vh;
-  border-left-style: groove;
-  min-height: 96vh;
-}
-
-#row{
-  min-height: 96vh;
-}
-
-#side{
-  min-height: 96vh;
-}
-
-#miniMap{
-  border-bottom-width: 2vh;
-  border-bottom-style: groove;
-  background-color: deepskyblue;
-  min-height: 32vh;
-}
-
-#holdings{
-  background-color: salmon;
-  min-height: 32vh;
-}
-
-#activities{
-  background-color: silver;
-  border-top-width: 2vh;
-  border-top-style: groove;
-  min-height: 32vh;
 }

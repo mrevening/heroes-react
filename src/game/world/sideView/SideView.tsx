@@ -1,4 +1,5 @@
-import { Container, Row, Col} from 'reactstrap';
+import './sideView.scss'
+import { Row, Col} from 'reactstrap';
 import Activities from './activities/Activities'
 import Holdings from './holdings/Holdings'
 import MiniMap from './miniMap/MiniMap'

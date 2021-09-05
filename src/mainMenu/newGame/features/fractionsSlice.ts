@@ -2,7 +2,7 @@ import { createSlice } from '@reduxjs/toolkit'
 import type { RootState } from 'state/store'
 
 interface FractionState {
-  list: Array<Fraction>
+  list: Array<IFraction>
 }
 
 const initialState: FractionState = {

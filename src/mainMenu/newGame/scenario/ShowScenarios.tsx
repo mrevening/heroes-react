@@ -16,7 +16,7 @@ export default function ShowScenarios({ isOpen, toggle }: ShowScenariosProps){
     const currentScenario = useAppSelector(state => state.scenarioSettings.settings);
     const [ highlightedScenario, setHighlightedScenario] = useState(currentScenario);
     const [ scenarioSize, setScenarioSize] = useState("ALL" );
-    function sizeFilter(scenario: Scenario) { return scenarioSize === "ALL" || scenario.size === scenarioSize}; 
+    function sizeFilter(scenario: IScenario) { return scenarioSize === "ALL" || scenario.size === scenarioSize}; 
     
         
     return (

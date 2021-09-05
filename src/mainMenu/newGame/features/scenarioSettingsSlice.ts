@@ -1,7 +1,7 @@
 import { createSlice } from '@reduxjs/toolkit'
 import type { RootState } from 'state/store'
 
-const initialState: ScenarioSettings = {
+const initialState: IScenarioSettings = {
   settings: {
     id: 0,
     name: "",

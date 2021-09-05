@@ -1,7 +1,7 @@
 import { createSlice } from '@reduxjs/toolkit'
 
 interface ScenariosState {
-  list: Array<Scenario>
+  list: Array<IScenario>
 }
 
 const initialState: ScenariosState = {

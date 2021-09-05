@@ -1,7 +1,7 @@
 import { useDispatch, useSelector } from 'react-redux';
 import { setFraction } from '../features/scenarioSettings/scenarioSettingsSlice'
 import { currentFraction } from '../features/fractions/fractionsSlice'
-import { useAppSelector, useAppDispatch } from 'hooks'
+import { useAppSelector, useAppDispatch } from 'state/hooks'
 
 interface HeroClassButtonProps {
     slot: Number,

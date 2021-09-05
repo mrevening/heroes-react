@@ -8,7 +8,7 @@ import { setScenarios } from './features/scenarios/scenariosSlice'
 import { setScenarioSettings } from './features/scenarioSettings/scenarioSettingsSlice'
 import { setFractions } from './features/fractions/fractionsSlice'
 import { setShowGame } from 'app/AppSlice'
-import { useAppDispatch } from 'hooks'
+import { useAppDispatch } from 'state/hooks'
 
 interface NewGameViewProps {
     isOpen: boolean,

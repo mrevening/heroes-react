@@ -1,6 +1,6 @@
 import { Container, ListGroup, ListGroupItem } from 'reactstrap';
 import HeroClassButton from './HeroClassButton';
-import { useAppSelector } from 'hooks'
+import { useAppSelector } from 'state/hooks'
 
 export default function HeroClass(){
     const opponents = useAppSelector(state => state.scenarioSettings.settings.opponents);

@@ -1,6 +1,6 @@
 import { Container } from 'reactstrap';
 import OpponentsButton from './OpponentsButton';
-import { useAppSelector } from 'hooks'
+import { useAppSelector } from 'state/hooks'
 
 export default function Opponents(){
     const opponents = useAppSelector(state => state.scenarioSettings.settings.opponents);

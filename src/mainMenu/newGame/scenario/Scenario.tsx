@@ -1,7 +1,7 @@
 import { useReducer } from 'react';
 import { Button, Row, Col } from 'reactstrap';
 import ShowScenarios from './ShowScenarios';
-import { useAppSelector } from 'hooks'
+import { useAppSelector } from 'state/hooks'
 
 export default function Scenario(){
     const [showScenarios, toggleShowScenarios] = useReducer(showScenarios => !showScenarios, false);

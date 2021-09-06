@@ -1,0 +1,7 @@
+@import '../../../game.scss';
+
+#heroes {
+    background-color: darkmagenta;
+    border-right-width: $border-width;
+    border-right-style: groove;
+}

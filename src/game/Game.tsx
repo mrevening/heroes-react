@@ -10,7 +10,7 @@ export default function Game() {
         <Col id="mainView">
           <MainView />
         </Col>
-        <Col xs="4" id="sideView">
+        <Col xs="3" id="sideView">
           <SideView />
         </Col>
       </Row>      

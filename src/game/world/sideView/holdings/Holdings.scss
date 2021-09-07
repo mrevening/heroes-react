@@ -1,7 +1,10 @@
-@import '../../../game.scss';
+@import '../../../../game/game';
 
-#heroes {
-    background-color: darkmagenta;
-    border-right-width: $border-width;
-    border-right-style: groove;
+#heroesList{
+    min-height: $view-height/3;
+}
+
+.holdingList{
+    padding-left: 0;
+    padding-right: 0;
 }

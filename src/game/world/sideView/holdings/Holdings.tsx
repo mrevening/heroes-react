@@ -1,15 +1,14 @@
-import './Holdings.scss'
-import Heroes from "./heroes/Heroes"
-import Castles from "./castles/Castles"
-import { Row, Col } from "reactstrap"
+import './holdings.scss'
+import HeroesList from "./heroesList/HeroesList"
+import CastlesList from "./castlesList/CastlesList"
+import HoldingsList from "./holdingsList/HoldingsList"
+import { Col } from "reactstrap"
 
 export default function Holdings(){
     return(
         <>
-
-            <Col id='heroes'><Heroes /></Col>
-            <Col id='castles'><Castles /></Col>
-  
+            <Col className='holdingList'><HoldingsList /></Col>
+            <Col className='holdingList'><HoldingsList /></Col>
         </>
     )
 }

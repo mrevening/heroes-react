@@ -1,4 +1,4 @@
-export default function Castles(){
+export default function CastlesList(){
     return(
         <>
             <div>Castles</div>
